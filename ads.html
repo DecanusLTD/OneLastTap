@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Advertising Disclosure — One More Tap</title>
+  <meta name="description" content="Advertising disclosure for the One More Tap mobile app." />
+  <style>
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background:#050913;
+      color:#eef3ff;
+      line-height:1.6;
+    }
+    .wrap{
+      max-width:900px;
+      margin:0 auto;
+      padding:28px 18px 60px;
+    }
+    h1{font-size:28px}
+    h2{font-size:18px;margin-top:24px}
+    p{color:rgba(255,255,255,.85)}
+    a{color:#7fffd4}
+    .card{
+      background:rgba(255,255,255,.05);
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:16px;
+      padding:18px;
+    }
+    footer{
+      margin-top:24px;
+      font-size:12px;
+      color:rgba(255,255,255,.5);
+      text-align:center;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Advertising Disclosure</h1>
+
+    <div class="card">
+      <p>
+        One More Tap is a free-to-play mobile game developed by Decanus Ltd.
+        The app displays advertisements to support development and ongoing maintenance.
+      </p>
+
+      <h2>How ads work</h2>
+      <p>
+        The app uses Google AdMob to display:
+      </p>
+      <ul>
+        <li>Banner advertisements</li>
+        <li>Interstitial advertisements</li>
+        <li>Optional rewarded video advertisements</li>
+      </ul>
+
+      <h2>Personalised ads</h2>
+      <p>
+        Ads may be personalised based on device information, location (approximate),
+        and advertising identifiers, depending on your region and device settings.
+      </p>
+      <p>
+        Users can control ad personalisation through their device’s privacy and advertising settings.
+      </p>
+
+      <h2>Third-party providers</h2>
+      <p>
+        Advertising is provided by Google AdMob.
+      </p>
+      <p>
+        Google’s privacy policy:
+        <br />
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+          https://policies.google.com/privacy
+        </a>
+      </p>
+
+      <h2>Children</h2>
+      <p>
+        One More Tap is not directed at children under the age of 13.
+      </p>
+    </div>
+
+    <footer>
+      © <span id="y"></span> Decanus Ltd — One More Tap
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
